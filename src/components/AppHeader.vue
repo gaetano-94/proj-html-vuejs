@@ -12,9 +12,26 @@ export default {
 
 <template>
   <header>
-    <AppApertura />
-    <AppContatti />
+    <div class="container d-flex">
+      <AppApertura />
+      <AppContatti />
+    </div>
   </header>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+header {
+  background-color: #21333e;
+  max-height: 50px;
+  width: 100%;
+
+  .container {
+    max-width: 1160px;
+    height: 100%;
+    color: grey;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+}
+</style>
