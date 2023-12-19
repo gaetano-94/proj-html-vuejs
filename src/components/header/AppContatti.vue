@@ -41,16 +41,12 @@ export default {
 </template>
 
 <style scoped lang="scss">
-ul {
-  list-style-type: none;
+li {
+  padding: 0px 10px;
 
-  li {
-    padding: 0px 10px;
-
-    a {
-      text-decoration: none;
-      color: gray;
-    }
+  a {
+    text-decoration: none;
+    color: gray;
   }
 }
 </style>
