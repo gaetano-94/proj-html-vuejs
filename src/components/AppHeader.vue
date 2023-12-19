@@ -24,6 +24,8 @@ header {
   background-color: #21333e;
   max-height: 50px;
   width: 100%;
+  position: fixed;
+  z-index: 10;
 
   .container {
     max-width: 1160px;
