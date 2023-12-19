@@ -35,7 +35,7 @@ export default {
               <a href="#" class="px-3 fs-5">Blog</a>
             </li>
             <li class="px-1">
-              <a href="#" class="px-3 fs-5">Get in Touch</a>
+              <a href="#" class="px-4 fs-5">Get in Touch</a>
             </li>
           </ul>
         </div>
@@ -93,7 +93,8 @@ section {
       text-transform: uppercase;
       &:hover {
         background-color: #058283;
-        padding: 5px;
+        padding: 10px;
+        border-radius: 5px;
       }
     }
   }
