@@ -1,19 +1,19 @@
 <script>
-import AppHeaderApertura from './AppHeaderApertura.vue';
-import AppHeaderContatti from './AppHeaderContatti.vue';
+import AppApertura from './header/AppApertura.vue';
+import AppContatti from './header/AppContatti.vue';
 export default {
   name: 'Header',
   components: {
-    AppHeaderApertura,
-    AppHeaderContatti,
+    AppApertura,
+    AppContatti,
   },
 };
 </script>
 
 <template>
   <header>
-    <AppHeaderApertura />
-    <AppHeaderContatti />
+    <AppApertura />
+    <AppContatti />
   </header>
 </template>
 
