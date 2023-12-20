@@ -68,8 +68,6 @@ section {
   background-position: bottom;
   overflow-y: hidden;
   filter: brightness(0.5);
-  position: absolute;
-  top: 50px;
 
   .container-uno {
     max-width: 1150px;
