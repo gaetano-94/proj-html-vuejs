@@ -69,6 +69,7 @@ export default {
 <style scoped lang="scss">
 .row {
   height: 1000px;
+  margin-right: 0;
 
   .gp-div-bg {
     width: 80px;
